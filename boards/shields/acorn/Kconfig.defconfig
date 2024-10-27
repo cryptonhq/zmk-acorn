@@ -8,28 +8,28 @@ endif
 if SHIELD_ACORN_CENTRAL_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "acorn.dongle"
+    default "corn.dongle"
 
 endif
 
 if SHIELD_ACORN_CENTRAL_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "acorn.central"
+    default "corn.central"
 
 endif
 
 if SHIELD_ACORN_PERIPHERAL_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "acorn.left"
+    default "corn.left"
 
 endif
 
 if SHIELD_ACORN_PERIPHERAL_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "acorn.right"
+    default "corn.right"
 
 endif
 
