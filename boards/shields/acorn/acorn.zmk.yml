@@ -1,16 +1,16 @@
 file_format: "1"
-id: acorn
-name: acorn
+id: accorne
+name: accorne
 type: shield
-url: https://github.com/keeb-it/acorn
-requires: [nice_nano_v2]
+#url:
 exposes: [i2c_oled, spi_oled]
 siblings:
-  - acorn_central_dongle
-  - acorn_central_left
-  - acorn_peripheral_left
-  - acorn_peripheral_right
+  - accorne_central_dongle
+  - accorne_central_left
+  - accorne_peripheral_left
+  - accorne_peripheral_right
 features:
   - keys
   - encoder
-  - display
+  - studio
+  - underglow
