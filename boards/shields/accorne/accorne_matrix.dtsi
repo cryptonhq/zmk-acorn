@@ -15,6 +15,7 @@
     chosen {
         zmk,kscan = &kscan;
         zmk,physical-layout = &foostan_corne_6col_layout;
+        zmk,underglow = &led_strip;
     };
 
     kscan: kscan {
