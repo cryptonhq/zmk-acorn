@@ -5,6 +5,7 @@
 / {
     chosen {
         zmk,kscan = &mock_kscan;
+        zmk,underglow = &led_strip;
     };
 
     mock_kscan: kscan1 {
