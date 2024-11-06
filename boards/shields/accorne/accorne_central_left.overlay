@@ -1,4 +1,4 @@
-#include "acorn.dtsi"
+#include "accorne.dtsi"
 #include <dt-bindings/led/led.h>
 
 &left_encoder {

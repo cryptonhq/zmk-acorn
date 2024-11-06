@@ -1,4 +1,4 @@
-#include "acorn_matrix.dtsi"
+#include "accorne_matrix.dtsi"
 
 &pro_micro_spi { status = "disabled"; };
 

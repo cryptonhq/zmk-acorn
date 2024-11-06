@@ -1,4 +1,4 @@
-#include "acorn.dtsi"
+#include "accorne.dtsi"
 
 &left_encoder {
     status = "okay";
