@@ -8,28 +8,28 @@ endif
 if SHIELD_ACCORNE_CENTRAL_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "corn.dongle"
+    default "ACCorne.dongle"
 
 endif
 
 if SHIELD_ACCORNE_CENTRAL_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "corn.central"
+    default "ACCorne.central"
 
 endif
 
 if SHIELD_ACCORNE_PERIPHERAL_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "corn.left"
+    default "ACCorne.left"
 
 endif
 
 if SHIELD_ACCORNE_PERIPHERAL_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "corn.right"
+    default "ACCorne.right"
 
 endif
 
@@ -44,7 +44,7 @@ config I2C
 if ZMK_DISPLAY
 
 config SSD1306
-    default y
+    default n
 
 choice LV_FONT_DEFAULT
     default LV_FONT_DEFAULT_MONTSERRAT_12
@@ -95,12 +95,12 @@ config ZMK_RGB_UNDERGLOW_BRT_MIN
 config ZMK_RGB_UNDERGLOW_BRT_MAX
     int "RGB underglow maximum brightness in percent"
     range ZMK_RGB_UNDERGLOW_BRT_MIN 100
-    default 60
+    default 50
 
 config ZMK_RGB_UNDERGLOW_HUE_STEP
     int "RGB underglow hue step in degrees"
     range 0 359
-    default 10
+    default 60
 
 config ZMK_RGB_UNDERGLOW_SAT_STEP
     int "RGB underglow saturation step in percent"
@@ -143,6 +143,7 @@ config ZMK_RGB_UNDERGLOW_ON_START
 
 config ZMK_RGB_UNDERGLOW_AUTO_OFF_IDLE
     bool "Turn off RGB underglow when keyboard goes into idle state"
+    default y
 
 config ZMK_RGB_UNDERGLOW_AUTO_OFF_USB
     bool "Turn off RGB underglow when USB is disconnected"
