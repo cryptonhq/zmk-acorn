@@ -8,28 +8,28 @@ endif
 if SHIELD_ACCORNE_CENTRAL_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "ACCorne.dongle"
+    default "accorne.dongle"
 
 endif
 
 if SHIELD_ACCORNE_CENTRAL_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "ACCorne.central"
+    default "accorne"
 
 endif
 
 if SHIELD_ACCORNE_PERIPHERAL_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "ACCorne.left"
+    default "accorne.left"
 
 endif
 
 if SHIELD_ACCORNE_PERIPHERAL_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "ACCorne.right"
+    default "accorne.right"
 
 endif
 
@@ -90,12 +90,12 @@ config ZMK_RGB_UNDERGLOW_EXT_POWER
 config ZMK_RGB_UNDERGLOW_BRT_MIN
     int "RGB underglow minimum brightness in percent"
     range 0 100
-    default 10
+    default 0
 
 config ZMK_RGB_UNDERGLOW_BRT_MAX
     int "RGB underglow maximum brightness in percent"
     range ZMK_RGB_UNDERGLOW_BRT_MIN 100
-    default 50
+    default 10
 
 config ZMK_RGB_UNDERGLOW_HUE_STEP
     int "RGB underglow hue step in degrees"
@@ -115,7 +115,7 @@ config ZMK_RGB_UNDERGLOW_BRT_STEP
 config ZMK_RGB_UNDERGLOW_HUE_START
     int "RGB underglow start hue value in degrees"
     range 0 359
-    default 10
+    default 20
 
 config ZMK_RGB_UNDERGLOW_SAT_START
     int "RGB underglow start saturations value in percent"
